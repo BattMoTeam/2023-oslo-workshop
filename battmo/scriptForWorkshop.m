@@ -271,6 +271,9 @@ model     = output5.model;
 initstate = output5.initstate;
 schedule  = output5.schedule;
 
+%%
+
+
 CRate = model.Control.CRate;
 
 n           = 25;
@@ -303,6 +306,7 @@ am    = 'ActiveMaterial';
 cc    = 'CurrentCollector';
 sd    = 'SolidDiffusion';
 sep   = 'Separator';
+thermal   = 'ThermalModel';
 elyte = 'Electrolyte';
 
 c0 = 1/255;
